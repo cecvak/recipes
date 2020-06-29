@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Mac and cheese",
+        "link": "https://www.recipetineats.com/baked-mac-and-cheese",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Vegetable Stir Fry",
+        "link": "https://www.onceuponachef.com/recipes/chinese-vegetable-stir-fry.html",
+        "category": ["vegetarian", "vegan"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Garlic Butter Baked Salmon",
+        "link": "https://cafedelites.com/sheet-pan-garlic-butter-baked-salmon/",
+        "category": ["fish"],
+        "spicy": false,
+        "time": "middle",
+        "language": "en"
+    },
+    {
+        "name": "Madras Beef Curry",
+        "link": "https://www.taste.com.au/recipes/madras-beef-curry/cbb6fb57-dea5-453b-9214-ed68c3e017f1",
+        "category": ["beef"],
+        "spicy": true,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Greek Chicken",
+        "link": "https://www.jamieoliver.com/recipes/chicken-recipes/gorgeous-greek-chicken/",
+        "category": ["chicken"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Glazed Sticky Pork",
+        "link": "https://www.foodiewithfamily.com/easy-garlic-ginger-glazed-sticky-pork/",
+        "category": ["pork"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Salmon with lemon orzo",
+        "link": "https://www.olivemagazine.com/recipes/fish-and-seafood/salmon-with-lemon-orzo/",
+        "category": ["fish"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Butter Chicken",
+        "link": "https://www.recipetineats.com/butter-chicken/",
+        "category": ["chicken"],
+        "spicy": false,
+        "time": "middle",
+        "language": "en"
+    },
+    {
+        "name": "Sticky Sweet & Sour Sesame Pork",
+        "link": "https://thislittlepigwenttomarket.com.au/blogs/news/116026181-sticky-sweet-sour-sesame-pork-with-ginger-soba-noodle-stirfry",
+        "category": ["pork"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Tamarind Beef Stir-Fry",
+        "link": "http://theepicentre.com/?recipe=tamarind-beef-stir-fry",
+        "category": ["beef"],
+        "spicy": false,
+        "time": "middle",
+        "language": "en"
+    },
+    {
+        "name": "Thai Salmon Curry",
+        "link": "https://www.momskitchenhandbook.com/uncategorized/red-thai-curry-with-salmon-and-vegetables/",
+        "category": ["fish"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Slow Braised Pork Shoulder",
+        "link": "https://www.bbcgoodfood.com/recipes/slow-braised-pork-shoulder-cider-parsnips",
+        "category": ["pork"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Pasta with Spinach and Blue Cheese Sauce",
+        "link": "https://www.easypeasyfoodie.com/gargano-pasta-spinach-blue-cheese-sauce/",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Spaghetti with prawns and rocket",
+        "link": "https://www.jamieoliver.com/recipes/pasta-recipes/spaghetti-with-prawns-and-rocket-spaghetti-con-gamberetti-e-rucola/",
+        "category": ["shellfish"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Roast Chicken",
+        "link": "https://www.jamieoliver.com/recipes/chicken-recipes/perfect-roast-chicken/",
+        "category": ["chicken"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Mushroom & Cauliflower Penne",
+        "link": "https://www.jamieoliver.com/recipes/pasta-recipes/mushroom-cauliflower-penne/",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "quick",
+        "language": "en"
+    },
+    {
+        "name": "Ragotoni with roasted tomatoes and ricotta",
+        "link": "https://www.jamieoliver.com/recipes/pasta-recipes/rigatoni-with-roasted-tomatoes-ricotta-salata/",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Spinach & ricotta cannelloni",
+        "link": "https://www.jamieoliver.com/recipes/pasta-recipes/spinach-ricotta-cannelloni/",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Veggie Shepherd's Pie",
+        "link": "https://www.bbcgoodfood.com/recipes/veggie-shepherds-pie-sweet-potato-mash",
+        "category": ["vegetarian"],
+        "spicy": false,
+        "time": "long",
+        "language": "en"
+    },
+    {
+        "name": "Satay sweet potato curry",
+        "link": "https://www.bbcgoodfood.com/recipes/satay-sweet-potato-curry",
+        "category": ["vegetarian", "vegan"],
+        "spicy": false,
+        "time": "middle",
+        "language": "en"
+    },
+]
+
+
+
+
+
+
+
+
