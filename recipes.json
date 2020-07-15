@@ -1,4 +1,6 @@
-[
+{
+
+"recipes": [
     {
         "name": "Mac and cheese",
         "link": "https://www.recipetineats.com/baked-mac-and-cheese",
@@ -158,11 +160,10 @@
         "spicy": false,
         "time": "middle",
         "language": "en"
-    },
+    }
 ]
 
-
-
+}
 
 
 

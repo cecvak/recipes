@@ -9,57 +9,67 @@
 
 </head>
 <body>
-    
+   <div id="vue-app1">
     <div class="container">
-        <h1>What's for dinner?</h1>
-        <p>Don't know what to cook for dinner? Use the search below to get a random recipe.</p>
+      <h1>What's for dinner?</h1>
+      <p>Don't know what to cook for dinner? Use the search below to get a random recipe.</p>
 
-        <!-- Category search -->
-        <p>Pick one or more recipe categories:</p>
-        <button type="button" class="btn btn-outline-primary">Vegetarian</button>
-        <button type="button" class="btn btn-outline-primary">Vegan</button>
-        <button type="button" class="btn btn-outline-primary">Beef</button>
-        <button type="button" class="btn btn-outline-primary">Pork</button>
-        <button type="button" class="btn btn-outline-primary">Chicken</button>
-        <button type="button" class="btn btn-outline-primary">Fish</button>
-        <button type="button" class="btn btn-outline-primary">Shellfish</button>
-        <!-- <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="checkbox" checked> Checked
-            </label>
-          </div> -->
-          <!-- <button type="button" class="btn btn-primary">Vegetarian</button> -->
-        <!-- Spicy or not -->
-        <p>Spicy or not?</p>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="radio" name="options" id="option1" checked> Spicy!
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option2"> No!
-            </label>
-          </div>
-        <!-- Time -->
-        <p>How long do you want to spend cooking?</p>
-        <button type="button" class="btn btn-outline-primary">Up to 30 mins</button>
-        <button type="button" class="btn btn-outline-primary">30-60 mins</button>
-        <button type="button" class="btn btn-outline-primary">Over 60 mins</button>
-        <!-- Go button and random button -->
-        <p>Done?</p>
-        <button type="button" class="btn btn-outline-primary">Search!</button>
-        <p>Can't even decide on a category? Find a random recipe from all categories!</p>
-        <button type="button" class="btn btn-outline-primary">Random!</button>
-        <!-- Show result... -->
-        <p>You should make: (RESULT!)</p>
+      <!-- Category search -->
+      <p>Pick one or more recipe categories:</p>
+      <button type="button" class="btn btn-outline-primary">Vegetarian</button>
+      <button type="button" class="btn btn-outline-primary">Vegan</button>
+      <button type="button" class="btn btn-outline-primary">Beef</button>
+      <button type="button" class="btn btn-outline-primary">Pork</button>
+      <button type="button" class="btn btn-outline-primary">Chicken</button>
+      <button type="button" class="btn btn-outline-primary">Fish</button>
+      <button type="button" class="btn btn-outline-primary">Shellfish</button>
+      <!-- <div class="btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="checkbox" checked> Checked
+          </label>
+        </div> -->
+        <!-- <button type="button" class="btn btn-primary">Vegetarian</button> -->
+      <!-- Spicy or not -->
+      <p>Spicy or not?</p>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="radio" name="options" id="option1" checked> Spicy!
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2"> No!
+          </label>
+        </div>
+      <!-- Time -->
+      <p>How long do you want to spend cooking?</p>
+      <button type="button" class="btn btn-outline-primary">Up to 30 mins</button>
+      <button type="button" class="btn btn-outline-primary">30-60 mins</button>
+      <button type="button" class="btn btn-outline-primary">Over 60 mins</button>
+      <!-- Go button and random button -->
+      <p>Done?</p>
+      <button type="button" class="btn btn-outline-primary">Search!</button>
+      <p>You should make:</p>
 
 
-        <p>(This is a personal project to collect some of my favourite recipes and some I want to try, and an attemt to help in my neverending
-            struggle to think of what to make for dinner and to keep all my collected recipes in one place. Recipe collection will be added to over time.)
-        </p>
+      <p>Can't even decide on a category? Find a random recipe from all categories!</p>
+      <button type="button" class="btn btn-outline-primary" v-on:click="random">Random!</button>
+      <!-- Show result... -->
+      <p>You should make:</p>
+      <!-- <div v-for="recipe in randomRecipe"> -->
+        <!-- <p>{{ randomRecipe.name }}</p> -->
+        <a :href="randomRecipe.link" target="_blank">{{ randomRecipe.name }}</a>
+      <!-- </div> -->
+
+
+      <p>(This is a personal project to collect some of my favourite recipes and some I want to try, and an attemt to help in my neverending
+          struggle to think of what to make for dinner and to keep all my collected recipes in one place. Recipe collection will be added to over time.)
+      </p>
     </div>
+  </div> 
+
     
 
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
