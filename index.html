@@ -16,6 +16,12 @@
 
       <!-- Category search -->
       <p>Pick one or more recipe categories:</p>
+      <!-- <button type="button" class="btn btn-outline-primary">Vegetarian</button> -->
+      <!-- <div class="btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-primary">
+          <input type="checkbox"> Vegetarian
+        </label>
+      </div> -->
       <button type="button" class="btn btn-outline-primary">Vegetarian</button>
       <button type="button" class="btn btn-outline-primary">Vegan</button>
       <button type="button" class="btn btn-outline-primary">Beef</button>
@@ -32,10 +38,10 @@
       <!-- Spicy or not -->
       <p>Spicy or not?</p>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-          <label class="btn btn-primary active">
+          <label class="btn btn-outline-primary active">
             <input type="radio" name="options" id="option1" checked> Spicy!
           </label>
-          <label class="btn btn-primary">
+          <label class="btn btn-outline-primary">
             <input type="radio" name="options" id="option2"> No!
           </label>
         </div>
@@ -46,12 +52,12 @@
       <button type="button" class="btn btn-outline-primary">Over 60 mins</button>
       <!-- Go button and random button -->
       <p>Done?</p>
-      <button type="button" class="btn btn-outline-primary">Search!</button>
+      <button type="button" class="btn btn-primary">Search!</button>
       <p>You should make:</p>
 
 
       <p>Can't even decide on a category? Find a random recipe from all categories!</p>
-      <button type="button" class="btn btn-outline-primary" v-on:click="random">Random!</button>
+      <button type="button" class="btn btn-primary" v-on:click="random">Random!</button>
       <!-- Show result... -->
       <p>You should make:</p>
       <!-- <div v-for="recipe in randomRecipe"> -->
@@ -68,6 +74,9 @@
 
     
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
